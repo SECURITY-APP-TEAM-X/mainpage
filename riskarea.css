@@ -1,0 +1,55 @@
+.risk-area{
+    height: 52%;
+    width: 90%;
+    top: 0%;
+    background-image: linear-gradient(#CEE9B6, rgb(73, 144, 202));
+    box-sizing: border-box;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    margin-top: 2%;
+}
+.location-box{
+    height: 55px;
+    width: 90%;
+    margin-top: 1%;
+    display: flex;
+    background: linear-gradient(rgb(228, 235, 227), rgb(73, 144, 202));
+    box-sizing: border-box;
+    border-radius: 10px;
+    align-items: center;
+}
+.location-box .location-input{
+    background-color: transparent;
+    border-radius: 16px;
+    color: #1c00f2;
+    margin-left: 1.5%;
+    height: 60%;
+    width: 80%;
+    border-radius: 10px;
+    font-size: 14px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    border-top: transparent;
+}
+.location-box .location-icon{
+    margin-left: 7%;
+}
+.location-box .location-icon:hover{
+    animation: shake 1s forwards;
+}
+@keyframes shake {
+    10%{
+    transform: rotate(15deg);
+    }
+    20%{
+    transform: rotate(-15deg);
+    }
+    30%{
+    transform: rotate(15deg);
+    }
+    50%{
+    transform: rotate(0deg);
+    }
+}
